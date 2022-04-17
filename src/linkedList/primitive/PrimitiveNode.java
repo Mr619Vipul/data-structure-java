@@ -1,19 +1,19 @@
 package linkedList.primitive;
 
 public class PrimitiveNode {
-    private int i;
+    private int data;
     private PrimitiveNode next;
 
     public PrimitiveNode(int i) {
-        this.i = i;
+        this.data = i;
     }
 
-    public int getI() {
-        return i;
+    public int getData() {
+        return data;
     }
 
-    public void setI(int i) {
-        this.i = i;
+    public void setData(int data) {
+        this.data = data;
     }
 
     public PrimitiveNode getNext() {
